@@ -1,0 +1,10 @@
+docopt
+numpy
+keras_cv
+tensorflow
+tf2onnx
+ezkl
+ipykernel
+pydot
+keras_applications
+git+https://github.com/yaledhlab/vggface.git
