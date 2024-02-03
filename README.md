@@ -13,6 +13,10 @@ npm install
 cd ..
 
 # other dependencies
-pip install tf2onnx ezkl
+pip install tf2onnx ezkl git+https://github.com/yaledhlab/vggface.git
+
+# (optional) dependencies for visualization
+pip install pydot
+conda install graphviz # or any other way to install graphviz on your system
 ```
 
