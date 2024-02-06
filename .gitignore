@@ -163,3 +163,4 @@ cython_debug/
 *.onnx
 *.json
 circuit.*
+*.jpg

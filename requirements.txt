@@ -7,4 +7,6 @@ ezkl
 ipykernel
 pydot
 keras_applications
+mtcnn
+matplotlib
 git+https://github.com/yaledhlab/vggface.git
