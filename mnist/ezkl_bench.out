@@ -1,0 +1,441 @@
+[*] [2024-02-11 15:48:21, ezkl] - 
+ |  
+ |          ███████╗███████╗██╗  ██╗██╗
+ |          ██╔════╝╚══███╔╝██║ ██╔╝██║
+ |          █████╗    ███╔╝ █████╔╝ ██║
+ |          ██╔══╝   ███╔╝  ██╔═██╗ ██║
+ |          ███████╗███████╗██║  ██╗███████╗
+ |          ╚══════╝╚══════╝╚═╝  ╚═╝╚══════╝
+ |  
+ |          -----------------------------------------------------------
+ |          Easy Zero Knowledge for Liberty.
+ |          -----------------------------------------------------------
+ |  
+ |          
+[*] [2024-02-11 15:48:21, ezkl] - command: 
+ |   {
+ |    "command": {
+ |      "Prove": {
+ |        "check_mode": "SAFE",
+ |        "compiled_circuit": "model.ezkl",
+ |        "pk_path": "pk.key",
+ |        "proof_path": "model.proof",
+ |        "proof_type": "Single",
+ |        "srs_path": null,
+ |        "witness": "witness.json"
+ |      }
+ |    }
+ |  }
+[*] [2024-02-11 15:48:21, ezkl::pfsys::srs] - loading srs from "/home/cathie/.ezkl/srs/kzg17.srs"
+[*] [2024-02-11 15:48:21, ezkl::execute] - downsizing params to 17 logrows
+[*] [2024-02-11 15:48:21, ezkl::pfsys] - loading proving key from "pk.key"
+[*] [2024-02-11 15:48:21, ezkl::graph::vars] - number of blinding factors: 5
+[W] [2024-02-11 15:48:21, ezkl::tensor::var] - using column duplication for 1 advice blocks
+[W] [2024-02-11 15:48:21, ezkl::tensor::var] - using column duplication for 1 advice blocks
+[W] [2024-02-11 15:48:21, ezkl::tensor::var] - using column duplication for 1 advice blocks
+[*] [2024-02-11 15:48:21, ezkl::graph::model] - configuring model
+[*] [2024-02-11 15:48:21, ezkl::graph] - circuit size: 
+ |   {
+ |    "num_advice_columns": 12,
+ |    "num_challenges": 0,
+ |    "num_fixed": 4,
+ |    "num_instances": 1,
+ |    "num_selectors": 48
+ |  }
+[*] [2024-02-11 15:48:24, ezkl::pfsys] - proof started...
+[*] [2024-02-11 15:48:24, ezkl::graph::vars] - number of blinding factors: 5
+[W] [2024-02-11 15:48:24, ezkl::tensor::var] - using column duplication for 1 advice blocks
+[W] [2024-02-11 15:48:24, ezkl::tensor::var] - using column duplication for 1 advice blocks
+[W] [2024-02-11 15:48:24, ezkl::tensor::var] - using column duplication for 1 advice blocks
+[*] [2024-02-11 15:48:24, ezkl::graph::model] - configuring model
+[*] [2024-02-11 15:48:24, ezkl::graph] - circuit size: 
+ |   {
+ |    "num_advice_columns": 12,
+ |    "num_challenges": 0,
+ |    "num_fixed": 4,
+ |    "num_instances": 1,
+ |    "num_selectors": 48
+ |  }
+[W] [2024-02-11 15:48:24, ezkl::circuit::modules::planner] - spawning module 2
+[*] [2024-02-11 15:48:24, ezkl::graph::model] - model layout...
+[*] [2024-02-11 15:48:28, ezkl::graph::model] - model uses 184408 rows (coord=368817, constants=43265)
+[*] [2024-02-11 15:48:36, ezkl::pfsys] - proof took 12.687
+[*] [2024-02-11 15:48:36, ezkl] - succeeded
+[*] [2024-02-11 15:48:37, ezkl] - 
+ |  
+ |          ███████╗███████╗██╗  ██╗██╗
+ |          ██╔════╝╚══███╔╝██║ ██╔╝██║
+ |          █████╗    ███╔╝ █████╔╝ ██║
+ |          ██╔══╝   ███╔╝  ██╔═██╗ ██║
+ |          ███████╗███████╗██║  ██╗███████╗
+ |          ╚══════╝╚══════╝╚═╝  ╚═╝╚══════╝
+ |  
+ |          -----------------------------------------------------------
+ |          Easy Zero Knowledge for the Laconic.
+ |          -----------------------------------------------------------
+ |  
+ |          
+[*] [2024-02-11 15:48:37, ezkl] - command: 
+ |   {
+ |    "command": {
+ |      "Prove": {
+ |        "check_mode": "SAFE",
+ |        "compiled_circuit": "model.ezkl",
+ |        "pk_path": "pk.key",
+ |        "proof_path": "model.proof",
+ |        "proof_type": "Single",
+ |        "srs_path": null,
+ |        "witness": "witness.json"
+ |      }
+ |    }
+ |  }
+[*] [2024-02-11 15:48:37, ezkl::pfsys::srs] - loading srs from "/home/cathie/.ezkl/srs/kzg17.srs"
+[*] [2024-02-11 15:48:37, ezkl::execute] - downsizing params to 17 logrows
+[*] [2024-02-11 15:48:37, ezkl::pfsys] - loading proving key from "pk.key"
+[*] [2024-02-11 15:48:37, ezkl::graph::vars] - number of blinding factors: 5
+[W] [2024-02-11 15:48:37, ezkl::tensor::var] - using column duplication for 1 advice blocks
+[W] [2024-02-11 15:48:37, ezkl::tensor::var] - using column duplication for 1 advice blocks
+[W] [2024-02-11 15:48:37, ezkl::tensor::var] - using column duplication for 1 advice blocks
+[*] [2024-02-11 15:48:37, ezkl::graph::model] - configuring model
+[*] [2024-02-11 15:48:37, ezkl::graph] - circuit size: 
+ |   {
+ |    "num_advice_columns": 12,
+ |    "num_challenges": 0,
+ |    "num_fixed": 4,
+ |    "num_instances": 1,
+ |    "num_selectors": 48
+ |  }
+[*] [2024-02-11 15:48:39, ezkl::pfsys] - proof started...
+[*] [2024-02-11 15:48:39, ezkl::graph::vars] - number of blinding factors: 5
+[W] [2024-02-11 15:48:39, ezkl::tensor::var] - using column duplication for 1 advice blocks
+[W] [2024-02-11 15:48:39, ezkl::tensor::var] - using column duplication for 1 advice blocks
+[W] [2024-02-11 15:48:39, ezkl::tensor::var] - using column duplication for 1 advice blocks
+[*] [2024-02-11 15:48:39, ezkl::graph::model] - configuring model
+[*] [2024-02-11 15:48:39, ezkl::graph] - circuit size: 
+ |   {
+ |    "num_advice_columns": 12,
+ |    "num_challenges": 0,
+ |    "num_fixed": 4,
+ |    "num_instances": 1,
+ |    "num_selectors": 48
+ |  }
+[W] [2024-02-11 15:48:39, ezkl::circuit::modules::planner] - spawning module 2
+[*] [2024-02-11 15:48:39, ezkl::graph::model] - model layout...
+[*] [2024-02-11 15:48:45, ezkl::graph::model] - model uses 235784 rows (coord=471569, constants=48673)
+[*] [2024-02-11 15:48:54, ezkl::pfsys] - proof took 14.314
+[*] [2024-02-11 15:48:54, ezkl] - succeeded
+[*] [2024-02-11 15:48:54, ezkl] - 
+ |  
+ |          ███████╗███████╗██╗  ██╗██╗
+ |          ██╔════╝╚══███╔╝██║ ██╔╝██║
+ |          █████╗    ███╔╝ █████╔╝ ██║
+ |          ██╔══╝   ███╔╝  ██╔═██╗ ██║
+ |          ███████╗███████╗██║  ██╗███████╗
+ |          ╚══════╝╚══════╝╚═╝  ╚═╝╚══════╝
+ |  
+ |          -----------------------------------------------------------
+ |          Easy Zero Knowledge Linear Algebra.
+ |          -----------------------------------------------------------
+ |  
+ |          
+[*] [2024-02-11 15:48:54, ezkl] - command: 
+ |   {
+ |    "command": {
+ |      "Prove": {
+ |        "check_mode": "SAFE",
+ |        "compiled_circuit": "model.ezkl",
+ |        "pk_path": "pk.key",
+ |        "proof_path": "model.proof",
+ |        "proof_type": "Single",
+ |        "srs_path": null,
+ |        "witness": "witness.json"
+ |      }
+ |    }
+ |  }
+[*] [2024-02-11 15:48:54, ezkl::pfsys::srs] - loading srs from "/home/cathie/.ezkl/srs/kzg17.srs"
+[*] [2024-02-11 15:48:54, ezkl::execute] - downsizing params to 17 logrows
+[*] [2024-02-11 15:48:54, ezkl::pfsys] - loading proving key from "pk.key"
+[*] [2024-02-11 15:48:54, ezkl::graph::vars] - number of blinding factors: 5
+[W] [2024-02-11 15:48:54, ezkl::tensor::var] - using column duplication for 10 advice blocks
+[W] [2024-02-11 15:48:54, ezkl::tensor::var] - using column duplication for 10 advice blocks
+[W] [2024-02-11 15:48:54, ezkl::tensor::var] - using column duplication for 10 advice blocks
+[*] [2024-02-11 15:48:54, ezkl::graph::model] - configuring model
+[*] [2024-02-11 15:48:54, ezkl::graph] - circuit size: 
+ |   {
+ |    "num_advice_columns": 66,
+ |    "num_challenges": 0,
+ |    "num_fixed": 4,
+ |    "num_instances": 1,
+ |    "num_selectors": 264
+ |  }
+[*] [2024-02-11 15:49:11, ezkl::pfsys] - proof started...
+[*] [2024-02-11 15:49:11, ezkl::graph::vars] - number of blinding factors: 5
+[W] [2024-02-11 15:49:11, ezkl::tensor::var] - using column duplication for 10 advice blocks
+[W] [2024-02-11 15:49:11, ezkl::tensor::var] - using column duplication for 10 advice blocks
+[W] [2024-02-11 15:49:11, ezkl::tensor::var] - using column duplication for 10 advice blocks
+[*] [2024-02-11 15:49:11, ezkl::graph::model] - configuring model
+[*] [2024-02-11 15:49:11, ezkl::graph] - circuit size: 
+ |   {
+ |    "num_advice_columns": 66,
+ |    "num_challenges": 0,
+ |    "num_fixed": 4,
+ |    "num_instances": 1,
+ |    "num_selectors": 264
+ |  }
+[W] [2024-02-11 15:49:11, ezkl::circuit::modules::planner] - spawning module 2
+[*] [2024-02-11 15:49:11, ezkl::graph::model] - model layout...
+[*] [2024-02-11 15:49:24, ezkl::graph::model] - model uses 1384546 rows (coord=2769093, constants=48674)
+[*] [2024-02-11 15:50:05, ezkl::pfsys] - proof took 54.662
+[*] [2024-02-11 15:50:06, ezkl] - succeeded
+[*] [2024-02-11 15:50:06, ezkl] - 
+ |  
+ |          ███████╗███████╗██╗  ██╗██╗
+ |          ██╔════╝╚══███╔╝██║ ██╔╝██║
+ |          █████╗    ███╔╝ █████╔╝ ██║
+ |          ██╔══╝   ███╔╝  ██╔═██╗ ██║
+ |          ███████╗███████╗██║  ██╗███████╗
+ |          ╚══════╝╚══════╝╚═╝  ╚═╝╚══════╝
+ |  
+ |          -----------------------------------------------------------
+ |          Easy Zero Knowledge for Neural Networks.
+ |          -----------------------------------------------------------
+ |  
+ |          
+[*] [2024-02-11 15:50:06, ezkl] - command: 
+ |   {
+ |    "command": {
+ |      "Prove": {
+ |        "check_mode": "SAFE",
+ |        "compiled_circuit": "model.ezkl",
+ |        "pk_path": "pk.key",
+ |        "proof_path": "model.proof",
+ |        "proof_type": "Single",
+ |        "srs_path": null,
+ |        "witness": "witness.json"
+ |      }
+ |    }
+ |  }
+[*] [2024-02-11 15:50:06, ezkl::pfsys::srs] - loading srs from "/home/cathie/.ezkl/srs/kzg17.srs"
+[*] [2024-02-11 15:50:06, ezkl::execute] - downsizing params to 17 logrows
+[*] [2024-02-11 15:50:06, ezkl::pfsys] - loading proving key from "pk.key"
+[*] [2024-02-11 15:50:06, ezkl::graph::vars] - number of blinding factors: 5
+[W] [2024-02-11 15:50:06, ezkl::tensor::var] - using column duplication for 10 advice blocks
+[W] [2024-02-11 15:50:06, ezkl::tensor::var] - using column duplication for 10 advice blocks
+[W] [2024-02-11 15:50:06, ezkl::tensor::var] - using column duplication for 10 advice blocks
+[*] [2024-02-11 15:50:06, ezkl::graph::model] - configuring model
+[*] [2024-02-11 15:50:06, ezkl::graph] - circuit size: 
+ |   {
+ |    "num_advice_columns": 66,
+ |    "num_challenges": 0,
+ |    "num_fixed": 4,
+ |    "num_instances": 1,
+ |    "num_selectors": 264
+ |  }
+[*] [2024-02-11 15:50:23, ezkl::pfsys] - proof started...
+[*] [2024-02-11 15:50:23, ezkl::graph::vars] - number of blinding factors: 5
+[W] [2024-02-11 15:50:23, ezkl::tensor::var] - using column duplication for 10 advice blocks
+[W] [2024-02-11 15:50:23, ezkl::tensor::var] - using column duplication for 10 advice blocks
+[W] [2024-02-11 15:50:23, ezkl::tensor::var] - using column duplication for 10 advice blocks
+[*] [2024-02-11 15:50:23, ezkl::graph::model] - configuring model
+[*] [2024-02-11 15:50:23, ezkl::graph] - circuit size: 
+ |   {
+ |    "num_advice_columns": 66,
+ |    "num_challenges": 0,
+ |    "num_fixed": 4,
+ |    "num_instances": 1,
+ |    "num_selectors": 264
+ |  }
+[W] [2024-02-11 15:50:24, ezkl::circuit::modules::planner] - spawning module 2
+[*] [2024-02-11 15:50:24, ezkl::graph::model] - model layout...
+[*] [2024-02-11 15:50:37, ezkl::graph::model] - model uses 1399074 rows (coord=2798149, constants=50274)
+[*] [2024-02-11 15:51:18, ezkl::pfsys] - proof took 55.75
+[*] [2024-02-11 15:51:19, ezkl] - succeeded
+[*] [2024-02-11 15:51:19, ezkl] - 
+ |  
+ |          ███████╗███████╗██╗  ██╗██╗
+ |          ██╔════╝╚══███╔╝██║ ██╔╝██║
+ |          █████╗    ███╔╝ █████╔╝ ██║
+ |          ██╔══╝   ███╔╝  ██╔═██╗ ██║
+ |          ███████╗███████╗██║  ██╗███████╗
+ |          ╚══════╝╚══════╝╚═╝  ╚═╝╚══════╝
+ |  
+ |          -----------------------------------------------------------
+ |          Easy Zero Knowledge for the Lyrical.
+ |          -----------------------------------------------------------
+ |  
+ |          
+[*] [2024-02-11 15:51:19, ezkl] - command: 
+ |   {
+ |    "command": {
+ |      "Prove": {
+ |        "check_mode": "SAFE",
+ |        "compiled_circuit": "model.ezkl",
+ |        "pk_path": "pk.key",
+ |        "proof_path": "model.proof",
+ |        "proof_type": "Single",
+ |        "srs_path": null,
+ |        "witness": "witness.json"
+ |      }
+ |    }
+ |  }
+[*] [2024-02-11 15:51:19, ezkl::pfsys::srs] - loading srs from "/home/cathie/.ezkl/srs/kzg17.srs"
+[*] [2024-02-11 15:51:19, ezkl::execute] - downsizing params to 17 logrows
+[*] [2024-02-11 15:51:19, ezkl::pfsys] - loading proving key from "pk.key"
+[*] [2024-02-11 15:51:19, ezkl::graph::vars] - number of blinding factors: 5
+[W] [2024-02-11 15:51:19, ezkl::tensor::var] - using column duplication for 10 advice blocks
+[W] [2024-02-11 15:51:19, ezkl::tensor::var] - using column duplication for 10 advice blocks
+[W] [2024-02-11 15:51:19, ezkl::tensor::var] - using column duplication for 10 advice blocks
+[*] [2024-02-11 15:51:19, ezkl::graph::model] - configuring model
+[*] [2024-02-11 15:51:19, ezkl::graph] - circuit size: 
+ |   {
+ |    "num_advice_columns": 66,
+ |    "num_challenges": 0,
+ |    "num_fixed": 4,
+ |    "num_instances": 1,
+ |    "num_selectors": 264
+ |  }
+[*] [2024-02-11 15:51:36, ezkl::pfsys] - proof started...
+[*] [2024-02-11 15:51:36, ezkl::graph::vars] - number of blinding factors: 5
+[W] [2024-02-11 15:51:36, ezkl::tensor::var] - using column duplication for 10 advice blocks
+[W] [2024-02-11 15:51:36, ezkl::tensor::var] - using column duplication for 10 advice blocks
+[W] [2024-02-11 15:51:36, ezkl::tensor::var] - using column duplication for 10 advice blocks
+[*] [2024-02-11 15:51:36, ezkl::graph::model] - configuring model
+[*] [2024-02-11 15:51:36, ezkl::graph] - circuit size: 
+ |   {
+ |    "num_advice_columns": 66,
+ |    "num_challenges": 0,
+ |    "num_fixed": 4,
+ |    "num_instances": 1,
+ |    "num_selectors": 264
+ |  }
+[W] [2024-02-11 15:51:36, ezkl::circuit::modules::planner] - spawning module 2
+[*] [2024-02-11 15:51:36, ezkl::graph::model] - model layout...
+[*] [2024-02-11 15:51:50, ezkl::graph::model] - model uses 1399074 rows (coord=2798149, constants=50274)
+[*] [2024-02-11 15:52:32, ezkl::pfsys] - proof took 55.713
+[*] [2024-02-11 15:52:32, ezkl] - succeeded
+[*] [2024-02-11 15:52:32, ezkl] - 
+ |  
+ |          ███████╗███████╗██╗  ██╗██╗
+ |          ██╔════╝╚══███╔╝██║ ██╔╝██║
+ |          █████╗    ███╔╝ █████╔╝ ██║
+ |          ██╔══╝   ███╔╝  ██╔═██╗ ██║
+ |          ███████╗███████╗██║  ██╗███████╗
+ |          ╚══════╝╚══════╝╚═╝  ╚═╝╚══════╝
+ |  
+ |          -----------------------------------------------------------
+ |          Easy Zero Knowledge Linear Algebra.
+ |          -----------------------------------------------------------
+ |  
+ |          
+[*] [2024-02-11 15:52:32, ezkl] - command: 
+ |   {
+ |    "command": {
+ |      "Prove": {
+ |        "check_mode": "SAFE",
+ |        "compiled_circuit": "model.ezkl",
+ |        "pk_path": "pk.key",
+ |        "proof_path": "model.proof",
+ |        "proof_type": "Single",
+ |        "srs_path": null,
+ |        "witness": "witness.json"
+ |      }
+ |    }
+ |  }
+[*] [2024-02-11 15:52:32, ezkl::pfsys::srs] - loading srs from "/home/cathie/.ezkl/srs/kzg17.srs"
+[*] [2024-02-11 15:52:32, ezkl::execute] - downsizing params to 17 logrows
+[*] [2024-02-11 15:52:32, ezkl::pfsys] - loading proving key from "pk.key"
+[*] [2024-02-11 15:52:32, ezkl::graph::vars] - number of blinding factors: 5
+[W] [2024-02-11 15:52:32, ezkl::tensor::var] - using column duplication for 10 advice blocks
+[W] [2024-02-11 15:52:32, ezkl::tensor::var] - using column duplication for 10 advice blocks
+[W] [2024-02-11 15:52:32, ezkl::tensor::var] - using column duplication for 10 advice blocks
+[*] [2024-02-11 15:52:32, ezkl::graph::model] - configuring model
+[*] [2024-02-11 15:52:32, ezkl::graph] - circuit size: 
+ |   {
+ |    "num_advice_columns": 66,
+ |    "num_challenges": 0,
+ |    "num_fixed": 4,
+ |    "num_instances": 1,
+ |    "num_selectors": 264
+ |  }
+[*] [2024-02-11 15:52:49, ezkl::pfsys] - proof started...
+[*] [2024-02-11 15:52:49, ezkl::graph::vars] - number of blinding factors: 5
+[W] [2024-02-11 15:52:49, ezkl::tensor::var] - using column duplication for 10 advice blocks
+[W] [2024-02-11 15:52:49, ezkl::tensor::var] - using column duplication for 10 advice blocks
+[W] [2024-02-11 15:52:49, ezkl::tensor::var] - using column duplication for 10 advice blocks
+[*] [2024-02-11 15:52:49, ezkl::graph::model] - configuring model
+[*] [2024-02-11 15:52:49, ezkl::graph] - circuit size: 
+ |   {
+ |    "num_advice_columns": 66,
+ |    "num_challenges": 0,
+ |    "num_fixed": 4,
+ |    "num_instances": 1,
+ |    "num_selectors": 264
+ |  }
+[W] [2024-02-11 15:52:50, ezkl::circuit::modules::planner] - spawning module 2
+[*] [2024-02-11 15:52:50, ezkl::graph::model] - model layout...
+[*] [2024-02-11 15:53:03, ezkl::graph::model] - model uses 1399074 rows (coord=2798149, constants=50274)
+[*] [2024-02-11 15:53:45, ezkl::pfsys] - proof took 55.324
+[*] [2024-02-11 15:53:45, ezkl] - succeeded
+[*] [2024-02-11 15:53:45, ezkl] - 
+ |  
+ |          ███████╗███████╗██╗  ██╗██╗
+ |          ██╔════╝╚══███╔╝██║ ██╔╝██║
+ |          █████╗    ███╔╝ █████╔╝ ██║
+ |          ██╔══╝   ███╔╝  ██╔═██╗ ██║
+ |          ███████╗███████╗██║  ██╗███████╗
+ |          ╚══════╝╚══════╝╚═╝  ╚═╝╚══════╝
+ |  
+ |          -----------------------------------------------------------
+ |          Easy Zero Knowledge for the Laconic.
+ |          -----------------------------------------------------------
+ |  
+ |          
+[*] [2024-02-11 15:53:45, ezkl] - command: 
+ |   {
+ |    "command": {
+ |      "Prove": {
+ |        "check_mode": "SAFE",
+ |        "compiled_circuit": "model.ezkl",
+ |        "pk_path": "pk.key",
+ |        "proof_path": "model.proof",
+ |        "proof_type": "Single",
+ |        "srs_path": null,
+ |        "witness": "witness.json"
+ |      }
+ |    }
+ |  }
+[*] [2024-02-11 15:53:45, ezkl::pfsys::srs] - loading srs from "/home/cathie/.ezkl/srs/kzg17.srs"
+[*] [2024-02-11 15:53:45, ezkl::execute] - downsizing params to 17 logrows
+[*] [2024-02-11 15:53:45, ezkl::pfsys] - loading proving key from "pk.key"
+[*] [2024-02-11 15:53:45, ezkl::graph::vars] - number of blinding factors: 5
+[W] [2024-02-11 15:53:45, ezkl::tensor::var] - using column duplication for 10 advice blocks
+[W] [2024-02-11 15:53:45, ezkl::tensor::var] - using column duplication for 10 advice blocks
+[W] [2024-02-11 15:53:45, ezkl::tensor::var] - using column duplication for 10 advice blocks
+[*] [2024-02-11 15:53:45, ezkl::graph::model] - configuring model
+[*] [2024-02-11 15:53:45, ezkl::graph] - circuit size: 
+ |   {
+ |    "num_advice_columns": 66,
+ |    "num_challenges": 0,
+ |    "num_fixed": 6,
+ |    "num_instances": 1,
+ |    "num_selectors": 308
+ |  }
+[*] [2024-02-11 15:54:05, ezkl::pfsys] - proof started...
+[*] [2024-02-11 15:54:05, ezkl::graph::vars] - number of blinding factors: 5
+[W] [2024-02-11 15:54:05, ezkl::tensor::var] - using column duplication for 10 advice blocks
+[W] [2024-02-11 15:54:05, ezkl::tensor::var] - using column duplication for 10 advice blocks
+[W] [2024-02-11 15:54:05, ezkl::tensor::var] - using column duplication for 10 advice blocks
+[*] [2024-02-11 15:54:05, ezkl::graph::model] - configuring model
+[*] [2024-02-11 15:54:05, ezkl::graph] - circuit size: 
+ |   {
+ |    "num_advice_columns": 66,
+ |    "num_challenges": 0,
+ |    "num_fixed": 6,
+ |    "num_instances": 1,
+ |    "num_selectors": 308
+ |  }
+[W] [2024-02-11 15:54:05, ezkl::circuit::modules::planner] - spawning module 2
+[*] [2024-02-11 15:54:05, ezkl::graph::model] - model layout...
+[*] [2024-02-11 15:54:19, ezkl::graph::model] - model uses 1406332 rows (coord=2812664, constants=50276)
+[E] [2024-02-11 15:54:25, halo2_proofs::plonk::mv_lookup::prover] - value is OOR of lookup
+[E] [2024-02-11 15:54:26, ezkl] - failed: General synthesis error
