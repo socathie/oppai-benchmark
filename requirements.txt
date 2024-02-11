@@ -3,7 +3,6 @@ numpy
 keras_cv
 tensorflow
 tf2onnx
-ezkl
 ipykernel
 pydot
 keras_applications
