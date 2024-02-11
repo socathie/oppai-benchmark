@@ -164,4 +164,4 @@ cython_debug/
 *.json
 circuit.*
 *.jpg
-*_cpp
+circuit_js/
