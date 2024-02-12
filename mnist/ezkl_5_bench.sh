@@ -1,3 +1,5 @@
+mkdir -p bench
+
 for i in {1..7}
 do
     cd model_$i
