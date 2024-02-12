@@ -1,0 +1,1 @@
+wget https://storage.googleapis.com/zkevm/ptau/powersOfTau28_hez_final_26.ptau
