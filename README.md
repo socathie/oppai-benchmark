@@ -4,6 +4,8 @@
 
 
 ```bash
+curl https://raw.githubusercontent.com/zkonduit/ezkl/main/install_ezkl_cli.sh | bash
+
 pip install -r requirements.txt # pip should resolve versions of packages
 
 # setup keras2circom
