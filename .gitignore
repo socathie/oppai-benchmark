@@ -163,3 +163,5 @@ model_*/
 lfw-deepfunneled/
 circuit_js/
 *input.json
+*.ptau
+*.zkey
