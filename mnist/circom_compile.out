@@ -1,0 +1,77 @@
+[32mtemplate instances[0m: 11
+non-linear constraints: 11378432
+linear constraints: 0
+public inputs: 0
+private inputs: 66000 (22704 belong to witness)
+public outputs: 21632
+wires: 11357873
+labels: 23537825
+[32mWritten successfully:[0m ./circuit.r1cs
+[32mWritten successfully:[0m ./circuit_js/circuit.wasm
+[32mEverything went okay[0m
+[32mtemplate instances[0m: 17
+non-linear constraints: 16867552
+linear constraints: 0
+public inputs: 0
+private inputs: 71408 (44336 belong to witness)
+public outputs: 5408
+wires: 16825361
+labels: 29362241
+[32mWritten successfully:[0m ./circuit.r1cs
+[32mWritten successfully:[0m ./circuit_js/circuit.wasm
+[32mEverything went okay[0m
+[32mtemplate instances[0m: 19
+non-linear constraints: 23101472
+linear constraints: 0
+public inputs: 0
+private inputs: 113136 (75920 belong to witness)
+public outputs: 7744
+wires: 23069969
+labels: 49347777
+[32mWritten successfully:[0m ./circuit.r1cs
+[32mWritten successfully:[0m ./circuit_js/circuit.wasm
+[32mEverything went okay[0m
+[32mtemplate instances[0m: 20
+non-linear constraints: 24725472
+linear constraints: 0
+public inputs: 0
+private inputs: 114736 (83664 belong to witness)
+public outputs: 1600
+wires: 24687569
+labels: 51070977
+[32mWritten successfully:[0m ./circuit.r1cs
+[32mWritten successfully:[0m ./circuit_js/circuit.wasm
+[32mEverything went okay[0m
+[32mtemplate instances[0m: 21
+non-linear constraints: 24725472
+linear constraints: 0
+public inputs: 0
+private inputs: 116336 (83664 belong to witness)
+public outputs: 1600
+wires: 24687569
+labels: 51075777
+[32mWritten successfully:[0m ./circuit.r1cs
+[32mWritten successfully:[0m ./circuit_js/circuit.wasm
+[32mEverything went okay[0m
+[32mtemplate instances[0m: 21
+non-linear constraints: 24725472
+linear constraints: 0
+public inputs: 0
+private inputs: 116336 (83664 belong to witness)
+public outputs: 1600
+wires: 24687569
+labels: 51075777
+[32mWritten successfully:[0m ./circuit.r1cs
+[32mWritten successfully:[0m ./circuit_js/circuit.wasm
+[32mEverything went okay[0m
+[32mtemplate instances[0m: 26
+non-linear constraints: 24744019
+linear constraints: 0
+public inputs: 0
+private inputs: 132367 (101274 belong to witness)
+public outputs: 1
+wires: 24722116
+labels: 51222612
+[32mWritten successfully:[0m ./circuit.r1cs
+[32mWritten successfully:[0m ./circuit_js/circuit.wasm
+[32mEverything went okay[0m
