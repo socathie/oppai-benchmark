@@ -165,3 +165,4 @@ circuit_js/
 *input.json
 *.ptau
 *.zkey
+spatial_transformer*/
