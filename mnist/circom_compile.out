@@ -1,8 +1,8 @@
 [32mtemplate instances[0m: 11
 non-linear constraints: 11378432
 linear constraints: 0
-public inputs: 0
-private inputs: 66000 (22704 belong to witness)
+public inputs: 784
+private inputs: 65216 (21920 belong to witness)
 public outputs: 21632
 wires: 11357873
 labels: 23537825
@@ -12,8 +12,8 @@ labels: 23537825
 [32mtemplate instances[0m: 17
 non-linear constraints: 16867552
 linear constraints: 0
-public inputs: 0
-private inputs: 71408 (44336 belong to witness)
+public inputs: 784
+private inputs: 70624 (43552 belong to witness)
 public outputs: 5408
 wires: 16825361
 labels: 29362241
@@ -23,8 +23,8 @@ labels: 29362241
 [32mtemplate instances[0m: 19
 non-linear constraints: 23101472
 linear constraints: 0
-public inputs: 0
-private inputs: 113136 (75920 belong to witness)
+public inputs: 784
+private inputs: 112352 (75136 belong to witness)
 public outputs: 7744
 wires: 23069969
 labels: 49347777
@@ -34,8 +34,8 @@ labels: 49347777
 [32mtemplate instances[0m: 20
 non-linear constraints: 24725472
 linear constraints: 0
-public inputs: 0
-private inputs: 114736 (83664 belong to witness)
+public inputs: 784
+private inputs: 113952 (82880 belong to witness)
 public outputs: 1600
 wires: 24687569
 labels: 51070977
@@ -45,8 +45,8 @@ labels: 51070977
 [32mtemplate instances[0m: 21
 non-linear constraints: 24725472
 linear constraints: 0
-public inputs: 0
-private inputs: 116336 (83664 belong to witness)
+public inputs: 784
+private inputs: 115552 (82880 belong to witness)
 public outputs: 1600
 wires: 24687569
 labels: 51075777
@@ -56,8 +56,8 @@ labels: 51075777
 [32mtemplate instances[0m: 21
 non-linear constraints: 24725472
 linear constraints: 0
-public inputs: 0
-private inputs: 116336 (83664 belong to witness)
+public inputs: 784
+private inputs: 115552 (82880 belong to witness)
 public outputs: 1600
 wires: 24687569
 labels: 51075777
@@ -67,8 +67,8 @@ labels: 51075777
 [32mtemplate instances[0m: 26
 non-linear constraints: 24744019
 linear constraints: 0
-public inputs: 0
-private inputs: 132367 (101274 belong to witness)
+public inputs: 784
+private inputs: 131583 (100490 belong to witness)
 public outputs: 1
 wires: 24722116
 labels: 51222612
