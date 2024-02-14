@@ -64,14 +64,14 @@ labels: 51075777
 [32mWritten successfully:[0m ./circuit.r1cs
 [32mWritten successfully:[0m ./circuit_js/circuit.wasm
 [32mEverything went okay[0m
-[32mtemplate instances[0m: 26
-non-linear constraints: 24744019
+[32mtemplate instances[0m: 25
+non-linear constraints: 24741472
 linear constraints: 0
 public inputs: 784
-private inputs: 131583 (100490 belong to witness)
-public outputs: 1
-wires: 24722116
-labels: 51222612
+private inputs: 131582 (100480 belong to witness)
+public outputs: 10
+wires: 24719579
+labels: 51219867
 [32mWritten successfully:[0m ./circuit.r1cs
 [32mWritten successfully:[0m ./circuit_js/circuit.wasm
 [32mEverything went okay[0m
