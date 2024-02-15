@@ -1,21 +1,21 @@
 	Command being timed: "ezkl prove -M model.ezkl --witness witness.json --pk-path=pk.key --proof-path=model.proof"
-	User time (seconds): 509.66
-	System time (seconds): 63.99
-	Percent of CPU this job got: 1582%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:36.26
+	User time (seconds): 506.17
+	System time (seconds): 62.10
+	Percent of CPU this job got: 1711%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:33.20
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 2869860
+	Maximum resident set size (kbytes): 2869864
 	Average resident set size (kbytes): 0
 	Major (requiring I/O) page faults: 251
-	Minor (reclaiming a frame) page faults: 1559621
-	Voluntary context switches: 2945624
-	Involuntary context switches: 3712
+	Minor (reclaiming a frame) page faults: 1634092
+	Voluntary context switches: 2953540
+	Involuntary context switches: 6542
 	Swaps: 0
 	File system inputs: 3837528
-	File system outputs: 6360
+	File system outputs: 6344
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
