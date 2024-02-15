@@ -1,5 +1,5 @@
 # trusted setup in model_{1..7} directories
-export NODE_OPTIONS=--max_old_space_size=131072
+export NODE_OPTIONS=--max_old_space_size=524288
 sudo sysctl -w vm.max_map_count=655300
 
 # model_1 use 24
