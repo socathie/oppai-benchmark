@@ -1,6 +1,3 @@
 [submodule "keras2circom"]
 	path = keras2circom
 	url = https://github.com/socathie/keras2circom.git
-[submodule "mlgo"]
-	path = mlgo
-	url = https://github.com/socathie/mlgo.git
