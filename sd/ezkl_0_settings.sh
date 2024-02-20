@@ -2,6 +2,7 @@ for folder in {"spatial_transformer","spatial_transformer_2","spatial_transforme
 do
     cd $folder
     ezkl gen-settings -M model.onnx --input-visibility public  --param-visibility private
-    ezkl calibrate-settings -M model.onnx -D input.json --target resources
     cd ..
 done
+
+ezkl gen-settings -M unet.onnx --input-visibility public  --param-visibility private
