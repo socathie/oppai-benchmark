@@ -1,0 +1,272 @@
+[*] [2024-02-20 05:30:06, ezkl] - 
+ |  
+ |          ███████╗███████╗██╗  ██╗██╗
+ |          ██╔════╝╚══███╔╝██║ ██╔╝██║
+ |          █████╗    ███╔╝ █████╔╝ ██║
+ |          ██╔══╝   ███╔╝  ██╔═██╗ ██║
+ |          ███████╗███████╗██║  ██╗███████╗
+ |          ╚══════╝╚══════╝╚═╝  ╚═╝╚══════╝
+ |  
+ |          -----------------------------------------------------------
+ |          Easy Zero Knowledge Linear Algebra.
+ |          -----------------------------------------------------------
+ |  
+ |          
+[*] [2024-02-20 05:30:06, ezkl] - command: 
+ |   {
+ |    "command": {
+ |      "GenSettings": {
+ |        "args": {
+ |          "check_mode": "UNSAFE",
+ |          "div_rebasing": false,
+ |          "input_scale": 7,
+ |          "input_visibility": "Public",
+ |          "logrows": 17,
+ |          "lookup_range": [
+ |            -32768,
+ |            32768
+ |          ],
+ |          "num_inner_cols": 2,
+ |          "output_visibility": "Public",
+ |          "param_scale": 7,
+ |          "param_visibility": "Private",
+ |          "rebase_frac_zero_constants": false,
+ |          "scale_rebase_multiplier": 1,
+ |          "tolerance": {
+ |            "scale": 1.0,
+ |            "val": 0.0
+ |          },
+ |          "variables": [
+ |            [
+ |              "batch_size",
+ |              1
+ |            ]
+ |          ]
+ |        },
+ |        "model": "model.onnx",
+ |        "settings_path": "settings.json"
+ |      }
+ |    }
+ |  }
+[*] [2024-02-20 05:30:06, ezkl::graph::model] - set batch_size to 1
+[*] [2024-02-20 05:30:06, ezkl::graph::model] - model has 3 instances
+[*] [2024-02-20 05:30:06, ezkl::graph::model] - calculating num of constraints using dummy model layout...
+[*] [2024-02-20 06:07:10, ezkl::graph::model] - model uses 10821242482 rows (coord=21642493349, constants=492905446)
+[*] [2024-02-20 06:07:13, ezkl] - succeeded
+[*] [2024-02-20 06:07:14, ezkl] - 
+ |  
+ |          ███████╗███████╗██╗  ██╗██╗
+ |          ██╔════╝╚══███╔╝██║ ██╔╝██║
+ |          █████╗    ███╔╝ █████╔╝ ██║
+ |          ██╔══╝   ███╔╝  ██╔═██╗ ██║
+ |          ███████╗███████╗██║  ██╗███████╗
+ |          ╚══════╝╚══════╝╚═╝  ╚═╝╚══════╝
+ |  
+ |          -----------------------------------------------------------
+ |          Easy Zero Knowledge for Layers.
+ |          -----------------------------------------------------------
+ |  
+ |          
+[*] [2024-02-20 06:07:14, ezkl] - command: 
+ |   {
+ |    "command": {
+ |      "GenSettings": {
+ |        "args": {
+ |          "check_mode": "UNSAFE",
+ |          "div_rebasing": false,
+ |          "input_scale": 7,
+ |          "input_visibility": "Public",
+ |          "logrows": 17,
+ |          "lookup_range": [
+ |            -32768,
+ |            32768
+ |          ],
+ |          "num_inner_cols": 2,
+ |          "output_visibility": "Public",
+ |          "param_scale": 7,
+ |          "param_visibility": "Private",
+ |          "rebase_frac_zero_constants": false,
+ |          "scale_rebase_multiplier": 1,
+ |          "tolerance": {
+ |            "scale": 1.0,
+ |            "val": 0.0
+ |          },
+ |          "variables": [
+ |            [
+ |              "batch_size",
+ |              1
+ |            ]
+ |          ]
+ |        },
+ |        "model": "model.onnx",
+ |        "settings_path": "settings.json"
+ |      }
+ |    }
+ |  }
+[*] [2024-02-20 06:07:14, ezkl::graph::model] - set batch_size to 1
+[*] [2024-02-20 06:07:15, ezkl::graph::model] - model has 3 instances
+[*] [2024-02-20 06:07:15, ezkl::graph::model] - calculating num of constraints using dummy model layout...
+[*] [2024-02-20 06:13:36, ezkl::graph::model] - model uses 5107529660 rows (coord=10215061865, constants=68460234)
+[*] [2024-02-20 06:13:37, ezkl] - succeeded
+[*] [2024-02-20 06:13:37, ezkl] - 
+ |  
+ |          ███████╗███████╗██╗  ██╗██╗
+ |          ██╔════╝╚══███╔╝██║ ██╔╝██║
+ |          █████╗    ███╔╝ █████╔╝ ██║
+ |          ██╔══╝   ███╔╝  ██╔═██╗ ██║
+ |          ███████╗███████╗██║  ██╗███████╗
+ |          ╚══════╝╚══════╝╚═╝  ╚═╝╚══════╝
+ |  
+ |          -----------------------------------------------------------
+ |          Easy Zero Knowledge Learning.
+ |          -----------------------------------------------------------
+ |  
+ |          
+[*] [2024-02-20 06:13:37, ezkl] - command: 
+ |   {
+ |    "command": {
+ |      "GenSettings": {
+ |        "args": {
+ |          "check_mode": "UNSAFE",
+ |          "div_rebasing": false,
+ |          "input_scale": 7,
+ |          "input_visibility": "Public",
+ |          "logrows": 17,
+ |          "lookup_range": [
+ |            -32768,
+ |            32768
+ |          ],
+ |          "num_inner_cols": 2,
+ |          "output_visibility": "Public",
+ |          "param_scale": 7,
+ |          "param_visibility": "Private",
+ |          "rebase_frac_zero_constants": false,
+ |          "scale_rebase_multiplier": 1,
+ |          "tolerance": {
+ |            "scale": 1.0,
+ |            "val": 0.0
+ |          },
+ |          "variables": [
+ |            [
+ |              "batch_size",
+ |              1
+ |            ]
+ |          ]
+ |        },
+ |        "model": "model.onnx",
+ |        "settings_path": "settings.json"
+ |      }
+ |    }
+ |  }
+[*] [2024-02-20 06:13:37, ezkl::graph::model] - set batch_size to 1
+[*] [2024-02-20 06:13:43, ezkl::graph::model] - model has 3 instances
+[*] [2024-02-20 06:13:43, ezkl::graph::model] - calculating num of constraints using dummy model layout...
+[*] [2024-02-20 06:17:39, ezkl::graph::model] - model uses 4429482857 rows (coord=8858965903, constants=22893250)
+[*] [2024-02-20 06:17:41, ezkl] - succeeded
+[*] [2024-02-20 06:17:41, ezkl] - 
+ |  
+ |          ███████╗███████╗██╗  ██╗██╗
+ |          ██╔════╝╚══███╔╝██║ ██╔╝██║
+ |          █████╗    ███╔╝ █████╔╝ ██║
+ |          ██╔══╝   ███╔╝  ██╔═██╗ ██║
+ |          ███████╗███████╗██║  ██╗███████╗
+ |          ╚══════╝╚══════╝╚═╝  ╚═╝╚══════╝
+ |  
+ |          -----------------------------------------------------------
+ |          Easy Zero Knowledge for Liberty.
+ |          -----------------------------------------------------------
+ |  
+ |          
+[*] [2024-02-20 06:17:41, ezkl] - command: 
+ |   {
+ |    "command": {
+ |      "GenSettings": {
+ |        "args": {
+ |          "check_mode": "UNSAFE",
+ |          "div_rebasing": false,
+ |          "input_scale": 7,
+ |          "input_visibility": "Public",
+ |          "logrows": 17,
+ |          "lookup_range": [
+ |            -32768,
+ |            32768
+ |          ],
+ |          "num_inner_cols": 2,
+ |          "output_visibility": "Public",
+ |          "param_scale": 7,
+ |          "param_visibility": "Private",
+ |          "rebase_frac_zero_constants": false,
+ |          "scale_rebase_multiplier": 1,
+ |          "tolerance": {
+ |            "scale": 1.0,
+ |            "val": 0.0
+ |          },
+ |          "variables": [
+ |            [
+ |              "batch_size",
+ |              1
+ |            ]
+ |          ]
+ |        },
+ |        "model": "model.onnx",
+ |        "settings_path": "settings.json"
+ |      }
+ |    }
+ |  }
+[*] [2024-02-20 06:17:41, ezkl::graph::model] - set batch_size to 1
+[*] [2024-02-20 06:17:47, ezkl::graph::model] - model has 3 instances
+[*] [2024-02-20 06:17:47, ezkl::graph::model] - calculating num of constraints using dummy model layout...
+[*] [2024-02-20 06:18:48, ezkl::graph::model] - model uses 1147973487 rows (coord=2295946877, constants=5578302)
+[*] [2024-02-20 06:18:49, ezkl] - succeeded
+[*] [2024-02-20 06:18:49, ezkl] - 
+ |  
+ |          ███████╗███████╗██╗  ██╗██╗
+ |          ██╔════╝╚══███╔╝██║ ██╔╝██║
+ |          █████╗    ███╔╝ █████╔╝ ██║
+ |          ██╔══╝   ███╔╝  ██╔═██╗ ██║
+ |          ███████╗███████╗██║  ██╗███████╗
+ |          ╚══════╝╚══════╝╚═╝  ╚═╝╚══════╝
+ |  
+ |          -----------------------------------------------------------
+ |          Easy Zero Knowledge Learning.
+ |          -----------------------------------------------------------
+ |  
+ |          
+[*] [2024-02-20 06:18:49, ezkl] - command: 
+ |   {
+ |    "command": {
+ |      "GenSettings": {
+ |        "args": {
+ |          "check_mode": "UNSAFE",
+ |          "div_rebasing": false,
+ |          "input_scale": 7,
+ |          "input_visibility": "Public",
+ |          "logrows": 17,
+ |          "lookup_range": [
+ |            -32768,
+ |            32768
+ |          ],
+ |          "num_inner_cols": 2,
+ |          "output_visibility": "Public",
+ |          "param_scale": 7,
+ |          "param_visibility": "Private",
+ |          "rebase_frac_zero_constants": false,
+ |          "scale_rebase_multiplier": 1,
+ |          "tolerance": {
+ |            "scale": 1.0,
+ |            "val": 0.0
+ |          },
+ |          "variables": [
+ |            [
+ |              "batch_size",
+ |              1
+ |            ]
+ |          ]
+ |        },
+ |        "model": "unet.onnx",
+ |        "settings_path": "settings.json"
+ |      }
+ |    }
+ |  }
+[E] [2024-02-20 06:18:51, ezkl::graph::model] - Error loading model: Reading proto model
+[E] [2024-02-20 06:18:51, ezkl] - failed: failed to load model
