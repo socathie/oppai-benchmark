@@ -1,3 +1,6 @@
 [submodule "keras2circom"]
 	path = keras2circom
 	url = https://github.com/socathie/keras2circom.git
+[submodule "llama-loreft"]
+	path = llama-loreft
+	url = https://github.com/socathie/llama-loreft.git
